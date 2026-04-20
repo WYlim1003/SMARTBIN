@@ -2,11 +2,14 @@
 ♻️ SMARTBIN: AI-Powered IoT Waste Management System
 
 📖 OVERVIEW
+
 SMARTBIN is an integrated hardware and software solution designed to modernize waste management through the use of Artificial Intelligence and the Internet of Things (IoT). The system automates waste classification using machine learning and provides real-time monitoring of bin capacity to optimize collection logistics. By combining custom-fabricated hardware with a responsive web dashboard, SMARTBIN offers a complete end-to-end ecosystem for smarter, more sustainable waste disposal.
 
 ✨ Key Features
+
 🧠 Intelligent Waste Classification
 Teachable Machine AI: Integrates lightweight machine learning models to provide computer vision capabilities, automatically identifying and classifying different types of waste as they are deposited.
+
 
 🔌 IoT Hardware Integration
 Real-Time Capacity Monitoring: Utilizes ultrasonic distance sensors connected to an Arduino microcontroller to actively measure how full the bin is.
@@ -14,9 +17,11 @@ Real-Time Capacity Monitoring: Utilizes ultrasonic distance sensors connected to
 Custom Fabrication: The physical prototype chassis and sensor enclosures were designed and constructed using precision laser-cutting technology.
 
 💻 Web Management Portal
+
 Live Dashboard: A responsive web interface (dashboard.html) visualizes the real-time status, capacity levels, and operational data of the deployed bins.
 
 🛠️ Technology Stack
+
 Frontend Web Development
 
 HTML5 & CSS3
