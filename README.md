@@ -1,5 +1,6 @@
 # SMARTBIN
 ♻️ SMARTBIN: AI-Powered IoT Waste Management System
+
 📖 OVERVIEW
 SMARTBIN is an integrated hardware and software solution designed to modernize waste management through the use of Artificial Intelligence and the Internet of Things (IoT). The system automates waste classification using machine learning and provides real-time monitoring of bin capacity to optimize collection logistics. By combining custom-fabricated hardware with a responsive web dashboard, SMARTBIN offers a complete end-to-end ecosystem for smarter, more sustainable waste disposal.
 
@@ -35,17 +36,28 @@ Ultrasonic Proximity Sensors
 Laser Cutter Fabrication
 
 📁 Repository Structure
+
 /teachable_machine/ - Contains the exported AI models used for waste image classification.
+
 index.html / main.html - The primary landing pages and entry points for the web interface.
+
 dashboard.html - The interactive interface for monitoring bin capacity and analytics.
+
 scanQR.html - The module handling quick-response code interactions.
+
 wasteManagement.html - Educational or operational section regarding waste protocols.
+
 management.js - The core client-side logic handling dynamic updates and user interactions.
+
 style.css - Global stylesheets ensuring a responsive and clean user interface.
 
 🚀 Getting Started
 To view the web interface locally:
+
 Clone this repository: git clone https://github.com/WYlim1003/SMARTBIN.git
+
 Navigate to the project directory.
+
 Open index.html in your preferred modern web browser.
+
 (Note: Hardware integration requires the physical Arduino setup and sensor array to populate live IoT data).
