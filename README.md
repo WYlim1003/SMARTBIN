@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/WYlim1003/SMARTBIN/main/logo.png" width="120" alt="SMARTBIN Logo" />
-</p>
-
 <h1 align="center">SMARTBIN</h1>
 
 <p align="center">
