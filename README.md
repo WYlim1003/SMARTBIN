@@ -1,89 +1,60 @@
-# SMARTBIN
-♻️ SMARTBIN: AI-Powered IoT Waste Management System
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WYlim1003/SMARTBIN/main/logo.png" width="120" alt="SMARTBIN Logo" />
+</p>
 
-📖 Overview
+<h1 align="center">SMARTBIN</h1>
 
-SMARTBIN is an integrated hardware and software solution designed to modernize waste management through the use of Artificial Intelligence and the Internet of Things (IoT). The system automates waste classification using machine learning and provides real-time monitoring of bin capacity to optimize collection logistics.
+<p align="center">
+  AI-Powered IoT Waste Management System for sustainable urban environments.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/IoT-Blue?style=for-the-badge&logo=internetofthings&logoColor=white" />
+</p>
+
+<p align="center">
+  Your integrated hardware and software solution to modernize waste management using machine learning.
+</p>
+
+---
+
+## ♻️ Overview
+SMARTBIN is an integrated hardware and software solution designed to modernize waste management through the use of **Artificial Intelligence** and the **Internet of Things (IoT)**. The system automates waste classification using machine learning and provides real-time monitoring of bin capacity to optimize collection logistics.
 
 By combining custom-fabricated hardware with a responsive web dashboard, SMARTBIN delivers a complete end-to-end ecosystem for smarter and more sustainable waste disposal.
 
-✨ Key Features
+---
 
-🧠 Intelligent Waste Classification
+## 🛠️ Technical Architecture
+SMARTBIN is built with a modular approach, connecting physical sensors to a cloud-ready dashboard optimized for real-time monitoring.
 
-Teachable Machine AI integration for image-based waste classification
+### 1. Technology Stack
+| Layer | Technology |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Machine Learning** | Google Teachable Machine (Computer Vision) |
+| **Hardware / IoT** | Arduino Microcontroller, Ultrasonic Sensors |
+| **Fabrication** | Laser Cutting, SolidWorks (CAD Design) |
 
-Real-time identification of waste categories using computer vision
+### 2. Repository Structure
+* **/teachable_machine/** — Exported AI models for waste classification.
+* **index.html** — Main landing page.
+* **dashboard.html** — Real-time monitoring dashboard for capacity status.
+* **scanQR.html** — QR code interaction module for users.
+* **management.js** — Core logic handling dynamic updates and ML integration.
 
-🔌 IoT Hardware Integration
+---
 
-Ultrasonic sensors for real-time bin capacity monitoring
+## 🚀 Quick Start
+### Prerequisites
+* Modern Web Browser (Chrome/Edge recommended).
+* Arduino IDE (if deploying to hardware).
+* Ultrasonic sensors and Arduino board (optional for live data).
 
-Arduino-based microcontroller system
-
-Custom laser-cut chassis and enclosure design
-
-💻 Web Management Portal
-
-Live dashboard for monitoring bin status
-
-Real-time visualization of capacity and system data
-
-Responsive and user-friendly interface
-
-
-🛠️ Technology Stack
-
-Category	Technologies
-
-Frontend	HTML5, CSS3, JavaScript
-
-Machine Learning	Google Teachable Machine
-
-Hardware / IoT	Arduino, Ultrasonic Sensors
-
-Fabrication	Laser Cutting
-
-📁 Repository Structure
-
-/teachable_machine/   # Exported AI models for waste classification
-
-
-index.html            # Main landing page
-
-main.html             # Alternative entry page
-
-dashboard.html        # Real-time monitoring dashboard
-
-scanQR.html           # QR code interaction module
-
-wasteManagement.html  # Waste information / education page
-
-management.js         # Core frontend logic (dynamic updates)
-
-style.css             # Global styling
-
-🚀 Getting Started
-# 1. Clone the repository
-git clone https://github.com/WYlim1003/SMARTBIN.git
-
-# 2. Navigate into the project folder
+### 1. Clone Repository
+```bash
+git clone [https://github.com/WYlim1003/SMARTBIN.git](https://github.com/WYlim1003/SMARTBIN.git)
 cd SMARTBIN
-
-# 3. Open the project
-# Simply open index.html in your browser
-
-⚠️ Notes
-- This project runs locally in a browser (no server required for UI).
-- Live IoT data requires:
-  • Arduino hardware setup
-
-   • Ultrasonic sensor integration
-
-  • Proper data communication to the frontend
-
-💡 Future Improvements (Optional but recommended)
-Cloud database integration for real-time syncing
-Mobile app version (Flutter)
-Advanced ML model for higher accuracy
-Smart notification system for waste collection
